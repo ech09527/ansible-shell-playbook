@@ -2,3 +2,5 @@
   tasks:
   - name: execute shell
     shell: "{{ shell }}"
+    args:
+      executable: /bin/bash
